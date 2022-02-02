@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+#header-wrap {
+  margin: 0 auto;
+  width: 1200px;
+  height: 80px;
+}
+#header-wrap > .logo {
+  margin: 0 auto;
+  float: left;
+  width: 180px;
+  height: 80px;
+  text-align: center;
+}
+#header-wrap > .logo > img {
+  margin-top: 8px;
+  width: 80%;
+  height: 80%;
+}
+#header-wrap > ul {
+  margin: 0 auto;
+  width: 910px;
+}
+#header-wrap > ul > li {
+  float: left;
+  margin-left: 10px;
+  width: 110px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+}
+#header-wrap > label {
+  width: 310px;
+  height: 80px;
+  line-height: 80px;
+}
+#header-wrap > label > select {
+  margin: 0 auto;
+  width: 100px;
+  height: 30px;
+  margin-left: 60px;
+}
+#banner {
+}
+.ban {
+  width: 100%;
+  height: 620px;
+  background-image: url(images/img001.png);
+  position: relative;
+}
+
+.ban-contents {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 200px;
+}
+.ban-contents > .text {
+  margin: 0 auto;
+  width: 390px;
+  height: 160px;
+}
+
+.ban-contents > .b-menu {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 900px;
+}
+.ban-contents > .b-menu > li {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(135, 206, 235, 0.9);
+}
+
+.ban-contents > .b-menu > li > img {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+.ban-contents > .b-menu > li > span {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+#contents {
+  margin: 0 auto;
+  width: 1200px;
+}
+#contents > .con {
+  float: left;
+  margin-top: 30px;
+  width: 380px;
+  height: 250px;
+}
+#contents > .con > h3 {
+  float: left;
+  width: 360px;
+}
+#contents > .con > figure {
+  width: 380px;
+}
+#contents > .con > figure > img {
+  margin: 0 auto;
+  width: 360px;
+}
+#contents > .con6 > ul {
+  width: 380px;
+  height: 240px;
+}
+#contents > .con6 > ul > li > a {
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+}
+#contents > .con6 > ul > li > span {
+  float: right;
+  height: 40px;
+  line-height: 40px;
+  font-size: 10px;
+}
+
+footer {
+  float: left;
+  margin-top: 80px;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+#footer-wrap {
+  margin: 0 auto;
+  width: 1200px;
+  height: 80px;
+}
+#footer-wrap > .f-logo {
+  float: left;
+  width: 120px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+#footer-wrap > .copyright {
+  float: left;
+  margin-left: 80px;
+  margin-top: 25px;
+  width: 600px;
+  height: 55px;
+  color: white;
+  font-size: 13px;
+}
+#footer-wrap > .copyright > p > span {
+  margin-left: 20px;
+}
+#footer-wrap > .f-icon {
+  float: left;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+#footer-wrap > .f-icon > img {
+  float: left;
+  margin-left: 40px;
+}
+
+select {
+  margin-left: 40px;
+  margin-top: 25px;
+  width: 120px;
+  height: 30px;
+}
